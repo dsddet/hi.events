@@ -62,6 +62,7 @@ export const App: FC<
                 }}
             />
             <MantineProvider
+                forceColorScheme="light"
                 theme={{
                     colors: {
                         primary: generateColors(getConfig("VITE_APP_PRIMARY_COLOR", "#40296C") as string),
