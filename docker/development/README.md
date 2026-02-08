@@ -1,6 +1,6 @@
-# Hi.Events local development with Docker
+# BrothersBit local development with Docker
 
-This guide walks you through setting up Hi.Events using Docker, including requirements, setup steps, configuration,
+This guide walks you through setting up BrothersBit using Docker, including requirements, setup steps, configuration,
 and environment variables.
 
 ## Requirements
@@ -17,7 +17,7 @@ and environment variables.
 ### 1. Clone the repository
 
 ```bash
-git clone git@github.com:HiEventsDev/Hi.Events.git
+git clone git@github.com:dsddet/Hi.Events.git
 ```
 
 ### 2. Start the development environment
@@ -44,7 +44,7 @@ Windows users should follow the steps below to manually run the setup commands i
 Using Git Bash or Windows Terminal:
 
 ```bash
-git clone git@github.com:HiEventsDev/Hi.Events.git
+git clone git@github.com:dsddet/Hi.Events.git
 cd Hi.Events/docker/development
 ```
 
@@ -112,11 +112,11 @@ start https://localhost:8443/auth/register
 
 ## Additional configuration
 
-Hi.Events uses environment variables for configuration. You’ll find `.env` files in:
+BrothersBit uses environment variables for configuration. You'll find `.env` files in:
 
 - `frontend/.env`
 - `backend/.env`
 
 You can modify these to customize your setup.
 
-For a full list of environment variables, see the [Environment Variables Documentation](https://hi.events/docs/getting-started/deploying#environment-variables).
+For a full list of environment variables, see the Environment Variables Documentation.

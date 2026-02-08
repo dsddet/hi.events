@@ -162,9 +162,11 @@ services:
             
             /usr/bin/mc alias set myminio $$MINIO_SERVER_URL $$MINIO_ROOT_USER $$MINIO_ROOT_PASSWORD;
                         
+            # TODO: Rebrand minio bucket names in future breaking-change release
             /usr/bin/mc mb myminio/hievents-public;
             /usr/bin/mc mb myminio/hievents-private;
-            
+
+            # TODO: Rebrand minio bucket names in future breaking-change release
             /usr/bin/mc anonymous set public myminio/hievents-public;
                         
             echo 'Buckets created and policies set.';

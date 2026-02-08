@@ -45,7 +45,7 @@ const MigrationNotice = ({stripeData}: { stripeData: StripeConnectAccountsRespon
     const caAccount = stripeData.stripe_connect_accounts.find(acc => acc.platform === 'ca');
     const ieAccount = stripeData.stripe_connect_accounts.find(acc => acc.platform === 'ie');
 
-    // Only show if Hi.Events user has CA account but no completed IE account
+    // Only show if BrothersBit user has CA account but no completed IE account
     if (!isHiEvents() || !caAccount || (ieAccount && ieAccount.is_setup_complete)) {
         return null;
     }
@@ -87,7 +87,7 @@ const MigrationNotice = ({stripeData}: { stripeData: StripeConnectAccountsRespon
                     </div>
 
                     <Text size="xs" c="dimmed" fs="italic">
-                        {t`Thanks for your support as we continue to grow and improve Hi.Events!`}
+                        {t`Thanks for your support as we continue to grow and improve BrothersBit!`}
                     </Text>
                 </div>
             </Group>
@@ -247,7 +247,7 @@ const FeePlanDisplay = ({configuration, stripeCountry}: FeePlanDisplayProps) => 
             <Title mb={10} order={3}>{t`Platform Fees`}</Title>
 
             <Text size="sm" c="dimmed" mb="lg">
-                {getConfig("VITE_APP_NAME", "Hi.Events")} charges platform fees to maintain and improve our services.
+                {getConfig("VITE_APP_NAME", "BrothersBit")} charges platform fees to maintain and improve our services.
                 These fees are automatically deducted from each transaction.
             </Text>
 
@@ -294,7 +294,7 @@ const FeePlanDisplay = ({configuration, stripeCountry}: FeePlanDisplayProps) => 
     );
 };
 
-// Hi.Events Cloud Multi-Platform Component
+// BrothersBit Cloud Multi-Platform Component
 const HiEventsConnectStatus = ({account}: { account: Account }) => {
     const [fetchStripeDetails, setFetchStripeDetails] = useState(false);
     const [platformToSetup, setPlatformToSetup] = useState<string | undefined>();
@@ -371,7 +371,7 @@ const HiEventsConnectStatus = ({account}: { account: Account }) => {
     const ieAccount = stripeData.stripe_connect_accounts.find(acc => acc.platform === 'ie');
     const activePlatform = stripeData.account.stripe_platform;
 
-    // For new Hi.Events users with no CA platform (either new or only IE)
+    // For new BrothersBit users with no CA platform (either new or only IE)
     // Show simple setup without migration messaging
     if (isNewUser || (!caAccount && ieAccount)) {
         const hasIrelandAccount = !!ieAccount;
@@ -749,7 +749,7 @@ const PaymentSettings = () => {
     }, [stripeAccountsQuery.data]);
 
     // Check if user is returning from Stripe and needs to fill VAT info
-    // Only for Hi.Events Cloud - open-source doesn't have VAT handling
+    // Only for BrothersBit Cloud - open-source doesn't have VAT handling
     useEffect(() => {
         if (typeof window === 'undefined') return;
         if (hasCheckedVatModal) return;
@@ -816,7 +816,7 @@ const PaymentSettings = () => {
                 subHeading={t`Manage your payment processing and view platform fees`}
             />
 
-            {/* Migration Notice - Show at the top for Hi.Events users who need to migrate */}
+            {/* Migration Notice - Show at the top for BrothersBit users who need to migrate */}
             {isHiEvents() && stripeAccountsQuery.data && <MigrationNotice stripeData={stripeAccountsQuery.data}/>}
 
             <Card className={classes.tabContent}>

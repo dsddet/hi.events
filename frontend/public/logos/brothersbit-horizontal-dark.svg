@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="80" viewBox="0 0 300 80">
+  <title>BrothersBit Logo Horizontal - Dark</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@800&amp;display=swap');
+    .logo-text { font-family: 'Outfit', sans-serif; font-weight: 800; letter-spacing: -0.02em; }
+  </style>
+
+  <!-- Icon on left, scaled to ~60% height (48px tall icon, centered vertically) -->
+  <g transform="translate(20, 16)">
+    <!-- Left half - medium blue -->
+    <rect x="0" y="0" width="12" height="48" fill="#3b57be"/>
+    <!-- Right half - bright cyan -->
+    <rect x="12" y="0" width="12" height="48" fill="#247ebf"/>
+  </g>
+
+  <!-- Text on right, vertically centered -->
+  <text x="190" y="51" class="logo-text" font-size="30" fill="#ffffff" text-anchor="middle">BROTHERS<tspan fill="#247ebf">BIT</tspan></text>
+</svg>

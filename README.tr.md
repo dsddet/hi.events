@@ -1,23 +1,23 @@
 <div align="center">
 
-<img src="https://hievents-public.s3.us-west-1.amazonaws.com/website/github-banner.png?v=1" alt="Hi.Events - Açık Kaynak Etkinlik Biletleme Platformu" width="100%">
+<img src="https://hievents-public.s3.us-west-1.amazonaws.com/website/github-banner.png?v=1" alt="BrothersBit - Açık Kaynak Etkinlik Biletleme Platformu" width="100%">
 
-# Hi.Events
+# BrothersBit
 
 ### Açık kaynak etkinlik biletleme ve yönetim platformu
 
 Konferanslar, gece hayatı etkinlikleri, konserler, kulüp geceleri, atölyeler ve festivaller için çevrimiçi bilet satın.
 Kendi sunucunuzda veya bulutta. Etkinlikleriniz, markanız, verileriniz.
 
-[Bulut Sürümünü Deneyin →](https://app.hi.events/auth/register?utm_source=gh-readme) · [Canlı Demo](https://app.hi.events/event/2/hievents-conference-2030?utm_source=gh-readme) · [Dokümantasyon](https://hi.events/docs?utm_source=gh-readme) · [Web Sitesi](https://hi.events?utm_source=gh-readme)
+[Bulut Sürümünü Deneyin →](https://app.brothersbit.com/auth/register?utm_source=gh-readme) · [Canlı Demo](https://app.brothersbit.com/event/2/hievents-conference-2030?utm_source=gh-readme) · [Dokümantasyon](https://brothersbit.com/docs?utm_source=gh-readme) · [Web Sitesi](https://brothersbit.com?utm_source=gh-readme)
 
-[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://github.com/HiEventsDev/Hi.Events/blob/develop/LICENCE)
-[![GitHub Release](https://img.shields.io/github/v/release/HiEventsDev/hi.events?include_prereleases)](https://github.com/HiEventsDev/hi.events/releases)
-[![Run Unit Tests](https://github.com/HiEventsDev/hi.events/actions/workflows/unit-tests.yml/badge.svg?event=push)](https://github.com/HiEventsDev/hi.events/actions/workflows/unit-tests.yml)
-[![Docker Pulls](https://img.shields.io/docker/pulls/daveearley/hi.events-all-in-one)](https://hub.docker.com/r/daveearley/hi.events-all-in-one)
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://github.com/dsddet/Hi.Events/blob/develop/LICENCE)
+[![GitHub Release](https://img.shields.io/github/v/release/dsddet/Hi.Events?include_prereleases)](https://github.com/dsddet/Hi.Events/releases)
+[![Run Unit Tests](https://github.com/dsddet/Hi.Events/actions/workflows/unit-tests.yml/badge.svg?event=push)](https://github.com/dsddet/Hi.Events/actions/workflows/unit-tests.yml)
+[![Docker Pulls](https://ghcr.io/dsddet/brothersbit-all-in-one)](https://ghcr.io/dsddet/brothersbit-all-in-one)
 
 <a href="https://trendshift.io/repositories/10563" target="_blank">
-  <img src="https://trendshift.io/api/badge/repositories/10563" alt="HiEventsDev%2Fhi.events | Trendshift" width="250" height="55"/>
+  <img src="https://trendshift.io/api/badge/repositories/10563" alt="dsddet%2FHi.Events | Trendshift" width="250" height="55"/>
 </a>
 
 <p>
@@ -28,15 +28,15 @@ Kendi sunucunuzda veya bulutta. Etkinlikleriniz, markanız, verileriniz.
 
 <br>
 
-## Neden Hi.Events?
+## Neden BrothersBit?
 
-Çoğu biletleme platformu bilet başına ücret alır ve verilerinizi kendi ekosistemlerine kilitler. **Hi.Events, markalaşma, ödeme, veri ve altyapı üzerinde tam kontrol isteyen organizatörler için Eventbrite, Tickettailor, Dice.fm ve diğer biletleme platformlarına modern, açık kaynak bir alternatiftir**.
+Çoğu biletleme platformu bilet başına ücret alır ve verilerinizi kendi ekosistemlerine kilitler. **BrothersBit, markalaşma, ödeme, veri ve altyapı üzerinde tam kontrol isteyen organizatörler için Eventbrite, Tickettailor, Dice.fm ve diğer biletleme platformlarına modern, açık kaynak bir alternatiftir**.
 
 Gece hayatı organizatörleri, festival düzenleyicileri, mekanlar, topluluk grupları ve konferans ev sahipleri için geliştirilmiştir.
 
 <br>
 
-<img alt="Hi.Events Gösterge Paneli" src="https://hievents-public.s3.us-west-1.amazonaws.com/website/github-screenshot.png"/>
+<img alt="BrothersBit Gösterge Paneli" src="https://hievents-public.s3.us-west-1.amazonaws.com/website/github-screenshot.png"/>
 
 <br>
 
@@ -110,7 +110,7 @@ Otomatik faturalama · Etkinlik arşivi · Çoklu dil desteği · Tam REST API
 
 ## Karşılaştırma
 
-| Özellik                                  | Hi.Events | Eventbrite | Tickettailor | Dice    |
+| Özellik                                  | BrothersBit | Eventbrite | Tickettailor | Dice    |
 |:-----------------------------------------|:----------|:-----------|:-------------|:--------|
 | Kendi sunucunuzda barındırma seçeneği   | ✅         | ❌          | ❌            | ❌       |
 | Açık kaynak                              | ✅         | ❌          | ❌            | ❌       |
@@ -126,16 +126,16 @@ Otomatik faturalama · Etkinlik arşivi · Çoklu dil desteği · Tam REST API
 
 ### Tek Tıkla Dağıtım
 
-[![Deploy on DigitalOcean](https://www.deploytodo.com/do-btn-blue.svg)](https://github.com/HiEventsDev/hi.events-digitalocean)
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://github.com/HiEventsDev/hi.events-render.com)
+[![Deploy on DigitalOcean](https://www.deploytodo.com/do-btn-blue.svg)](https://github.com/dsddet/Hi.Events-digitalocean)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://github.com/dsddet/Hi.Events-render.com)
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/8CGKmu?referralCode=KvSr11)
 [![Deploy on Zeabur](https://zeabur.com/button.svg)](https://zeabur.com/templates/8DIRY6)
 
 ### Docker
 
 ```bash
-git clone git@github.com:HiEventsDev/hi.events.git
-cd hi.events/docker/all-in-one
+git clone git@github.com:dsddet/Hi.Events.git
+cd Hi.Events/docker/all-in-one
 
 # Anahtarları oluştur (Linux/macOS)
 echo "APP_KEY=base64:$(openssl rand -base64 32)" >> .env
@@ -149,15 +149,15 @@ docker compose up -d
 
 `http://localhost:8123` adresini açın ve hesabınızı oluşturun.
 
-📖 [Tam kurulum rehberi](https://hi.events/docs/getting-started?utm_source=gh-readme)
+📖 [Tam kurulum rehberi](https://brothersbit.com/docs/getting-started?utm_source=gh-readme)
 
 <br>
 
-## Hi.Events Cloud
+## BrothersBit Cloud
 
-Kendi sunucunuzda barındırmayı tercih etmiyor musunuz? **[Hi.Events Cloud](https://app.hi.events/auth/register?utm_source=gh-readme)**, sıfır kurulum, otomatik güncellemeler ve yönetilen altyapı ile tam yönetilen bir seçenektir.
+Kendi sunucunuzda barındırmayı tercih etmiyor musunuz? **[BrothersBit Cloud](https://app.brothersbit.com/auth/register?utm_source=gh-readme)**, sıfır kurulum, otomatik güncellemeler ve yönetilen altyapı ile tam yönetilen bir seçenektir.
 
-[Başlayın →](https://app.hi.events/auth/register?utm_source=gh-readme)
+[Başlayın →](https://app.brothersbit.com/auth/register?utm_source=gh-readme)
 
 <br>
 
@@ -165,10 +165,10 @@ Kendi sunucunuzda barındırmayı tercih etmiyor musunuz? **[Hi.Events Cloud](ht
 
 | Kaynak          | Bağlantı                                                                                      |
 |:----------------|:----------------------------------------------------------------------------------------------|
-| Başlangıç       | [hi.events/docs/getting-started](https://hi.events/docs/getting-started?utm_source=gh-readme) |
-| Yapılandırma    | [hi.events/docs/configuration](https://hi.events/docs/configuration?utm_source=gh-readme)     |
-| API Referansı   | [hi.events/docs/api](https://hi.events/docs/api?utm_source=gh-readme)                         |
-| Webhook'lar     | [hi.events/docs/webhooks](https://hi.events/docs/webhooks?utm_source=gh-readme)               |
+| Başlangıç       | [brothersbit.com/docs/getting-started](https://brothersbit.com/docs/getting-started?utm_source=gh-readme) |
+| Yapılandırma    | [brothersbit.com/docs/configuration](https://brothersbit.com/docs/configuration?utm_source=gh-readme)     |
+| API Referansı   | [brothersbit.com/docs/api](https://brothersbit.com/docs/api?utm_source=gh-readme)                         |
+| Webhook'lar     | [brothersbit.com/docs/webhooks](https://brothersbit.com/docs/webhooks?utm_source=gh-readme)               |
 
 <br>
 
@@ -180,27 +180,27 @@ Katkılarınızı bekliyoruz. Ayrıntılar için [katkıda bulunma rehberine](CO
 
 ## Destek
 
-📖 [Dokümantasyon](https://hi.events/docs?utm_source=gh-readme) · 📧 [hello@hi.events](mailto:hello@hi.events) ·
-🐛 [GitHub Issues](https://github.com/HiEventsDev/hi.events/issues)
+📖 [Dokümantasyon](https://brothersbit.com/docs?utm_source=gh-readme) · 📧 [contact@brothersbit.com](mailto:contact@brothersbit.com) ·
+🐛 [GitHub Issues](https://github.com/dsddet/Hi.Events/issues)
 
 <br>
 
 ## Değişiklik Günlüğü
 
-Yeni özellikler ve iyileştirmelerden haberdar olmak için [sürümler sayfasını](https://github.com/HiEventsDev/hi.events/releases) ziyaret edin.
+Yeni özellikler ve iyileştirmelerden haberdar olmak için [sürümler sayfasını](https://github.com/dsddet/Hi.Events/releases) ziyaret edin.
 
 <br>
 
 ## Lisans
 
-Hi.Events, **ek koşullar içeren AGPL-3.0** lisansına sahiptir. Ticari lisanslama mevcuttur. [Daha fazla bilgi edinin](https://hi.events/licensing).
+BrothersBit, **ek koşullar içeren AGPL-3.0** lisansına sahiptir. Ticari lisanslama mevcuttur. [Daha fazla bilgi edinin](https://brothersbit.com/licensing).
 
 <br>
 
 <div align="center">
 
-**[Web Sitesi](https://hi.events)** · **[Dokümantasyon](https://hi.events/docs)** · *
-*[Twitter/X](https://x.com/HiEventsTickets)**
+**[Web Sitesi](https://brothersbit.com)** · **[Dokümantasyon](https://brothersbit.com/docs)** · *
+*[Twitter/X](https://x.com/brothersbit)**
 
 İrlanda'da ☘️ ile yapıldı
 

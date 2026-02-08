@@ -1,4 +1,6 @@
 /* eslint-disable lingui/no-unlocalized-strings */
+// TODO: Rebrand widget API identifiers (hiEventWidgetLoaded, .hievents-widget,
+// data-hievents-*, hievents-iframe-*) in a future breaking-change release.
 (function(scriptElement) {
     const isScriptLoaded = () => !!window.hiEventWidgetLoaded;
 
@@ -39,7 +41,7 @@
                 ' allow-presentation'
             );
 
-            iframe.setAttribute('title', 'Hi.Events Widget');
+            iframe.setAttribute('title', 'BrothersBit Widget');
             iframe.style.border = 'none';
             iframe.style.width = '100%';
 

@@ -1,9 +1,9 @@
-# Running Hi.Events Locally Without Docker
+# Running BrothersBit Locally Without Docker
 
-This guide provides instructions for setting up Hi.Events locally without using Docker, including the necessary prerequisites,
+This guide provides instructions for setting up BrothersBit locally without using Docker, including the necessary prerequisites,
 setup steps, and configuration details.
 
-**ℹ️ For a faster and more reliable setup, we strongly recommend using the official [Docker setup](https://hi.events/docs/getting-started/quick-start).**
+**For a faster and more reliable setup, we strongly recommend using the Docker setup.**
 
 ## Prerequisites
 
@@ -22,10 +22,10 @@ Ensure the following PHP extensions are installed: `gd`, `pdo_pgsql`, `sodium`, 
 First, fork the repository and clone it locally:
 
 ```bash
-git clone https://github.com/youraccount/Hi.Events.git
+git clone https://github.com/dsddet/Hi.Events.git
 ```
 
-Hi.Events has two main directories: `backend` (Laravel) and `frontend` (React).
+BrothersBit has two main directories: `backend` (Laravel) and `frontend` (React).
 
 ### Backend Setup
 

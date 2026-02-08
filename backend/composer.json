@@ -1,7 +1,7 @@
 {
-    "name": "hieventsdev/hi.events",
+    "name": "dsddet/brothersbit",
     "type": "project",
-    "description": "hi.events - Ticket selling and event management.",
+    "description": "BrothersBit - Ticket selling and event management.",
     "keywords": ["ticketing", "events"],
     "license": "AGPL-3.0",
     "version": "0.0.1",

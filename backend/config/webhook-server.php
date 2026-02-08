@@ -39,6 +39,7 @@ return [
     /*
      * These are the headers that will be added to all webhook requests.
      */
+    // TODO: Rebrand X-Webhook-Source header in future breaking-change release
     'headers' => [
         'Content-Type' => 'application/json',
         'X-Webhook-Source' => 'Hi.Events',

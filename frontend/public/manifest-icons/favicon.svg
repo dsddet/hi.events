@@ -1,9 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
-    <rect width="48" height="48" rx="8" fill="#18181b"/>
-    <text x="24" y="33"
-          font-family="system-ui, -apple-system, sans-serif"
-          font-size="26"
-          font-weight="700"
-          fill="#ffffff"
-          text-anchor="middle">HI<tspan fill="#cd58dd">.</tspan></text>
+  <title>BrothersBit Favicon - Dark</title>
+  <!-- Dark rounded-rect background -->
+  <rect width="48" height="48" rx="8" fill="#18181b"/>
+  <!-- Split rectangle icon centered (~28px wide x 28px tall, centered) -->
+  <g transform="translate(10, 10)">
+    <!-- Left half - medium blue -->
+    <rect x="0" y="0" width="14" height="28" fill="#3b57be"/>
+    <!-- Right half - bright cyan -->
+    <rect x="14" y="0" width="14" height="28" fill="#247ebf"/>
+  </g>
 </svg>

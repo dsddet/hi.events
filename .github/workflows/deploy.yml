@@ -1,3 +1,6 @@
+# TODO: This workflow was inherited from the original Hi.Events project and deploys to
+# the original author's Vapor/DigitalOcean infrastructure. It should be replaced with
+# BrothersBit-specific deployment configuration or removed entirely.
 name: Deploy to Vapor and Frontend
 
 on:
@@ -89,8 +92,8 @@ jobs:
         if: env.TEST_MODE != 'true'
         working-directory: ./backend
         run: |
-          aws s3 cp s3://hi.events-env-secrets/.env.${{ env.VAPOR_ENV }}.encrypted .env.${{ env.VAPOR_ENV }}.encrypted
-          echo "✅ Downloaded .env.${{ env.VAPOR_ENV }}.encrypted from S3"
+          aws s3 cp s3://brothersbit-env-secrets/.env.${{ env.VAPOR_ENV }}.encrypted .env.${{ env.VAPOR_ENV }}.encrypted
+          echo "Downloaded .env.${{ env.VAPOR_ENV }}.encrypted from S3"
 
       - name: Validate Deployment Configuration
         working-directory: ./backend

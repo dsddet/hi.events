@@ -5,7 +5,7 @@ use Illuminate\Support\Facades\Facade;
 use Illuminate\Support\ServiceProvider;
 
 return [
-    'name' => env('APP_NAME', 'Hi.Events'),
+    'name' => env('APP_NAME', 'BrothersBit'),
 
     'reset_password_token_expiry_in_min' => 15,
     'frontend_url' => env('APP_FRONTEND_URL', 'http://localhost'),
@@ -251,5 +251,6 @@ return [
     ])->toArray(),
 
 
+    // TODO: Rebrand in future breaking-change release
     'is_hi_events' => env('APP_IS_HI_EVENTS', false),
 ];

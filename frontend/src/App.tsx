@@ -21,6 +21,7 @@ import {StartupChecks} from "./StartupChecks.tsx";
 import {ThirdPartyScripts} from "./components/common/ThirdPartyScripts";
 import {getConfig} from "./utilites/config.ts";
 
+// TODO: Rebrand window.hievents runtime bridge in a future breaking-change release
 declare global {
     interface Window {
         hievents: Record<string, string>;
@@ -79,7 +80,7 @@ export const App: FC<
                                 <ThirdPartyScripts/>
                                 <ModalsProvider>
                                     <Helmet>
-                                        <title>{getConfig("VITE_APP_NAME", "Hi.Events")}</title>
+                                        <title>{getConfig("VITE_APP_NAME", "BrothersBit")}</title>
                                         <link rel="icon"
                                               type="image/svg+xml"
                                               href={getConfig("VITE_APP_FAVICON", "/favicon.svg")}

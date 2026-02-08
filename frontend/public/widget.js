@@ -1,4 +1,6 @@
 /* eslint-disable lingui/no-unlocalized-strings */
+// TODO: Rebrand widget API identifiers (hiEventWidgetLoaded, .hievents-widget,
+// data-hievents-*, hievents-iframe-*) in a future breaking-change release.
 (function () {
     const isScriptLoaded = () => !!window.hiEventWidgetLoaded;
 

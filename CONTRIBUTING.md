@@ -1,6 +1,6 @@
-# Contribution Guidelines for Hi.Events
+# Contribution Guidelines for BrothersBit
 
-Thank you for your interest in contributing to Hi.Events! We welcome contributions from the community and are excited to collaborate with you to improve our event management and ticket-selling platform. Before you start, please read these guidelines to ensure a smooth contribution process.
+Thank you for your interest in contributing to BrothersBit! We welcome contributions from the community and are excited to collaborate with you to improve our event management and ticket-selling platform. Before you start, please read these guidelines to ensure a smooth contribution process.
 
 ## Table of Contents
 
@@ -22,11 +22,11 @@ Thank you for your interest in contributing to Hi.Events! We welcome contributio
 
 ### Reporting Bugs
 
-If you find a bug, please report it by opening an issue in our [GitHub repository](https://github.com/HiEventsDev/hi.events/issues). Include as much detail as possible to help us diagnose and fix the issue.
+If you find a bug, please report it by opening an issue in our [GitHub repository](https://github.com/dsddet/Hi.Events/issues). Include as much detail as possible to help us diagnose and fix the issue.
 
 ### Suggesting Enhancements
 
-We welcome suggestions for new features or improvements to existing functionality. To suggest an enhancement, please open an issue in our [GitHub repository](https://github.com/HiEventsDev/hi.events/issues) and provide a detailed description of the proposed enhancement and its benefits.
+We welcome suggestions for new features or improvements to existing functionality. To suggest an enhancement, please open an issue in our [GitHub repository](https://github.com/dsddet/Hi.Events/issues) and provide a detailed description of the proposed enhancement and its benefits.
 
 ### Pull Requests
 
@@ -55,7 +55,7 @@ Once you create a pull request, a CLA bot will automatically check if you have s
 
 ## Development Setup
 
-To set up the development environment for Hi.Events, follow the detailed instructions in our [Getting Started with Local Development guide](https://hi.events/docs/getting-started/local-development).
+To set up the development environment for BrothersBit, follow the detailed instructions in our [Getting Started with Local Development guide](https://brothersbit.com/docs/getting-started/local-development).
 
 ### Style Guides
 
@@ -79,7 +79,7 @@ Please wrap all translatable strings in the `__()` helper function. For example:
 
 ```php
 return [
-    'welcome' => __('Welcome to Hi.Events!'),
+    'welcome' => __('Welcome to BrothersBit!'),
 ];
 ```
 
@@ -101,7 +101,7 @@ This will update the translation files in the `backend/lang` directory.
 import { t } from '@lingui/macro';
    
 const MyComponent = () => {
-    return <div>{t`Welcome to Hi.Events!`}</div>;
+    return <div>{t`Welcome to BrothersBit!`}</div>;
 };
 ```
 
@@ -141,6 +141,6 @@ This will update the Domain Objects in `backend/app/DomainObjects` based on the 
 
 ## License
 
-By contributing to Hi.Events, you agree that your contributions will be licensed under the [AGPL-3.0 License with additional terms](LICENSE).
+By contributing to BrothersBit, you agree that your contributions will be licensed under the [AGPL-3.0 License with additional terms](LICENSE).
 
-Thank you for contributing to Hi.Events! If you have any questions, feel free to reach out to us.
+Thank you for contributing to BrothersBit! If you have any questions, feel free to reach out to us.

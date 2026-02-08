@@ -12,6 +12,8 @@ import {LoadingMask} from '../LoadingMask';
 import {Event} from '../../../types.ts';
 import {useGetEvent} from "../../../queries/useGetEvent.ts";
 
+// TODO: Rebrand widget API identifiers (data-hievents-*, .hievents-widget, HiEventsWidget)
+// in a future breaking-change release. These are public API surface used by embed consumers.
 export const WidgetEditor = () => {
     const {eventId} = useParams();
     const eventQuery = useGetEvent(eventId);

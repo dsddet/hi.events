@@ -1,8 +1,8 @@
-# Hi.Events Backend Architecture Overview
+# BrothersBit Backend Architecture Overview
 
 ## Introduction
 
-Hi.Events is an open-source event management and ticketing platform built with Laravel. The backend implements a **Domain-Driven Design (DDD)** architecture with clear separation of concerns, enabling maintainable, testable, and scalable code.
+BrothersBit is an open-source event management and ticketing platform built with Laravel. The backend implements a **Domain-Driven Design (DDD)** architecture with clear separation of concerns, enabling maintainable, testable, and scalable code.
 
 ## High-Level Architecture
 
@@ -204,7 +204,7 @@ OrderStatusChangedEvent::dispatch($order);
 
 ## Multi-Tenancy Architecture
 
-Hi.Events implements account-based multi-tenancy:
+BrothersBit implements account-based multi-tenancy:
 
 ```
 Account (Tenant)

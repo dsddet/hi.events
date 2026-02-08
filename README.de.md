@@ -1,23 +1,23 @@
 <div align="center">
 
-<img src="https://hievents-public.s3.us-west-1.amazonaws.com/website/github-banner.png?v=1" alt="Hi.Events - Open Source Event Ticketing Platform" width="100%">
+<img src="https://hievents-public.s3.us-west-1.amazonaws.com/website/github-banner.png?v=1" alt="BrothersBit - Open Source Event Ticketing Platform" width="100%">
 
-# Hi.Events
+# BrothersBit
 
 ### Open-Source-Plattform für Event-Ticketing und -Management
 
 Verkaufen Sie Tickets online für Konferenzen, Nachtleben-Events, Konzerte, Club-Nights, Workshops und Festivals.
 Self-hosted oder Cloud. Ihre Events, Ihre Marke, Ihre Daten.
 
-[Cloud testen →](https://app.hi.events/auth/register?utm_source=gh-readme) · [Live-Demo](https://app.hi.events/event/2/hievents-conference-2030?utm_source=gh-readme) · [Dokumentation](https://hi.events/docs?utm_source=gh-readme) · [Website](https://hi.events?utm_source=gh-readme)
+[Cloud testen →](https://app.brothersbit.com/auth/register?utm_source=gh-readme) · [Live-Demo](https://app.brothersbit.com/event/2/hievents-conference-2030?utm_source=gh-readme) · [Dokumentation](https://brothersbit.com/docs?utm_source=gh-readme) · [Website](https://brothersbit.com?utm_source=gh-readme)
 
-[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://github.com/HiEventsDev/Hi.Events/blob/develop/LICENCE)
-[![GitHub Release](https://img.shields.io/github/v/release/HiEventsDev/hi.events?include_prereleases)](https://github.com/HiEventsDev/hi.events/releases)
-[![Run Unit Tests](https://github.com/HiEventsDev/hi.events/actions/workflows/unit-tests.yml/badge.svg?event=push)](https://github.com/HiEventsDev/hi.events/actions/workflows/unit-tests.yml)
-[![Docker Pulls](https://img.shields.io/docker/pulls/daveearley/hi.events-all-in-one)](https://hub.docker.com/r/daveearley/hi.events-all-in-one)
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://github.com/dsddet/Hi.Events/blob/develop/LICENCE)
+[![GitHub Release](https://img.shields.io/github/v/release/dsddet/Hi.Events?include_prereleases)](https://github.com/dsddet/Hi.Events/releases)
+[![Run Unit Tests](https://github.com/dsddet/Hi.Events/actions/workflows/unit-tests.yml/badge.svg?event=push)](https://github.com/dsddet/Hi.Events/actions/workflows/unit-tests.yml)
+[![Docker Pulls](https://ghcr.io/dsddet/brothersbit-all-in-one)](https://ghcr.io/dsddet/brothersbit-all-in-one)
 
 <a href="https://trendshift.io/repositories/10563" target="_blank">
-  <img src="https://trendshift.io/api/badge/repositories/10563" alt="HiEventsDev%2Fhi.events | Trendshift" width="250" height="55"/>
+  <img src="https://trendshift.io/api/badge/repositories/10563" alt="dsddet%2FHi.Events | Trendshift" width="250" height="55"/>
 </a>
 
 <p>
@@ -28,15 +28,15 @@ Self-hosted oder Cloud. Ihre Events, Ihre Marke, Ihre Daten.
 
 <br>
 
-## Warum Hi.Events?
+## Warum BrothersBit?
 
-Die meisten Ticketing-Plattformen erheben Gebühren pro Ticket und sperren Ihre Daten in ihr Ökosystem. **Hi.Events ist eine moderne, Open-Source-Alternative zu Eventbrite, Tickettailor, Dice.fm und anderen Ticketing-Plattformen** für Veranstalter, die volle Kontrolle über Branding, Checkout, Daten und Infrastruktur wünschen.
+Die meisten Ticketing-Plattformen erheben Gebühren pro Ticket und sperren Ihre Daten in ihr Ökosystem. **BrothersBit ist eine moderne, Open-Source-Alternative zu Eventbrite, Tickettailor, Dice.fm und anderen Ticketing-Plattformen** für Veranstalter, die volle Kontrolle über Branding, Checkout, Daten und Infrastruktur wünschen.
 
 Entwickelt für Nachtleben-Promoter, Festival-Organisatoren, Veranstaltungsorte, Community-Gruppen und Konferenz-Gastgeber.
 
 <br>
 
-<img alt="Hi.Events Dashboard" src="https://hievents-public.s3.us-west-1.amazonaws.com/website/github-screenshot.png"/>
+<img alt="BrothersBit Dashboard" src="https://hievents-public.s3.us-west-1.amazonaws.com/website/github-screenshot.png"/>
 
 <br>
 
@@ -110,7 +110,7 @@ Automatische Rechnungsstellung · Event-Archiv · Mehrsprachige Unterstützung �
 
 ## Vergleich
 
-| Feature                           | Hi.Events | Eventbrite | Tickettailor | Dice        |
+| Feature                           | BrothersBit | Eventbrite | Tickettailor | Dice        |
 |:----------------------------------|:----------|:-----------|:-------------|:------------|
 | Self-Hosting-Option               | ✅         | ❌          | ❌            | ❌           |
 | Open Source                       | ✅         | ❌          | ❌            | ❌           |
@@ -126,16 +126,16 @@ Automatische Rechnungsstellung · Event-Archiv · Mehrsprachige Unterstützung �
 
 ### One-Click Deploy
 
-[![Deploy on DigitalOcean](https://www.deploytodo.com/do-btn-blue.svg)](https://github.com/HiEventsDev/hi.events-digitalocean)
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://github.com/HiEventsDev/hi.events-render.com)
+[![Deploy on DigitalOcean](https://www.deploytodo.com/do-btn-blue.svg)](https://github.com/dsddet/Hi.Events-digitalocean)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://github.com/dsddet/Hi.Events-render.com)
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/8CGKmu?referralCode=KvSr11)
 [![Deploy on Zeabur](https://zeabur.com/button.svg)](https://zeabur.com/templates/8DIRY6)
 
 ### Docker
 
 ```bash
-git clone git@github.com:HiEventsDev/hi.events.git
-cd hi.events/docker/all-in-one
+git clone git@github.com:dsddet/Hi.Events.git
+cd Hi.Events/docker/all-in-one
 
 # Schlüssel generieren (Linux/macOS)
 echo "APP_KEY=base64:$(openssl rand -base64 32)" >> .env
@@ -149,15 +149,15 @@ docker compose up -d
 
 Öffnen Sie `http://localhost:8123` und erstellen Sie Ihr Konto.
 
-📖 [Vollständige Installationsanleitung](https://hi.events/docs/getting-started?utm_source=gh-readme)
+📖 [Vollständige Installationsanleitung](https://brothersbit.com/docs/getting-started?utm_source=gh-readme)
 
 <br>
 
-## Hi.Events Cloud
+## BrothersBit Cloud
 
-Möchten Sie nicht selbst hosten? **[Hi.Events Cloud](https://app.hi.events/auth/register?utm_source=gh-readme)** ist eine vollständig verwaltete Option ohne Setup, mit automatischen Updates und verwalteter Infrastruktur.
+Möchten Sie nicht selbst hosten? **[BrothersBit Cloud](https://app.brothersbit.com/auth/register?utm_source=gh-readme)** ist eine vollständig verwaltete Option ohne Setup, mit automatischen Updates und verwalteter Infrastruktur.
 
-[Jetzt starten →](https://app.hi.events/auth/register?utm_source=gh-readme)
+[Jetzt starten →](https://app.brothersbit.com/auth/register?utm_source=gh-readme)
 
 <br>
 
@@ -165,10 +165,10 @@ Möchten Sie nicht selbst hosten? **[Hi.Events Cloud](https://app.hi.events/auth
 
 | Ressource        | Link                                                                                          |
 |:-----------------|:----------------------------------------------------------------------------------------------|
-| Erste Schritte   | [hi.events/docs/getting-started](https://hi.events/docs/getting-started?utm_source=gh-readme) |
-| Konfiguration    | [hi.events/docs/configuration](https://hi.events/docs/configuration?utm_source=gh-readme)     |
-| API-Referenz     | [hi.events/docs/api](https://hi.events/docs/api?utm_source=gh-readme)                         |
-| Webhooks         | [hi.events/docs/webhooks](https://hi.events/docs/webhooks?utm_source=gh-readme)               |
+| Erste Schritte   | [brothersbit.com/docs/getting-started](https://brothersbit.com/docs/getting-started?utm_source=gh-readme) |
+| Konfiguration    | [brothersbit.com/docs/configuration](https://brothersbit.com/docs/configuration?utm_source=gh-readme)     |
+| API-Referenz     | [brothersbit.com/docs/api](https://brothersbit.com/docs/api?utm_source=gh-readme)                         |
+| Webhooks         | [brothersbit.com/docs/webhooks](https://brothersbit.com/docs/webhooks?utm_source=gh-readme)               |
 
 <br>
 
@@ -180,26 +180,26 @@ Wir begrüßen Beiträge. Siehe den [Beitragsleitfaden](CONTRIBUTING.md) für De
 
 ## Support
 
-📖 [Dokumentation](https://hi.events/docs?utm_source=gh-readme) · 📧 [hello@hi.events](mailto:hello@hi.events) ·
-🐛 [GitHub Issues](https://github.com/HiEventsDev/hi.events/issues)
+📖 [Dokumentation](https://brothersbit.com/docs?utm_source=gh-readme) · 📧 [contact@brothersbit.com](mailto:contact@brothersbit.com) ·
+🐛 [GitHub Issues](https://github.com/dsddet/Hi.Events/issues)
 
 <br>
 
 ## Changelog
 
-Bleiben Sie über neue Features und Verbesserungen auf der [Releases-Seite](https://github.com/HiEventsDev/hi.events/releases) auf dem Laufenden.
+Bleiben Sie über neue Features und Verbesserungen auf der [Releases-Seite](https://github.com/dsddet/Hi.Events/releases) auf dem Laufenden.
 
 <br>
 
 ## Lizenz
 
-Hi.Events ist lizenziert unter **AGPL-3.0 mit zusätzlichen Bedingungen**. Kommerzielle Lizenzierung verfügbar. [Mehr erfahren](https://hi.events/licensing).
+BrothersBit ist lizenziert unter **AGPL-3.0 mit zusätzlichen Bedingungen**. Kommerzielle Lizenzierung verfügbar. [Mehr erfahren](https://brothersbit.com/licensing).
 
 <br>
 
 <div align="center">
 
-**[Website](https://hi.events)** · **[Dokumentation](https://hi.events/docs)** · **[Twitter/X](https://x.com/HiEventsTickets)**
+**[Website](https://brothersbit.com)** · **[Dokumentation](https://brothersbit.com/docs)** · **[Twitter/X](https://x.com/brothersbit)**
 
 Made with ☘️ in Ireland
 

@@ -1,9 +1,10 @@
 services:
+  # TODO: Rebrand container/service name in future breaking-change release
   hi-events-backend:
     build:
       context: ./../../backend
       dockerfile: Dockerfile
-    container_name: hi-events-backend
+    container_name: hi-events-backend  # TODO: Rebrand in future breaking-change release
     ports:
       - "8124:80"
     environment:
@@ -17,6 +18,7 @@ services:
       AWS_ACCESS_KEY_ID: ""
       AWS_SECRET_ACCESS_KEY: ""
       AWS_DEFAULT_REGION: "us-west-1"
+      # TODO: Rebrand bucket names in future breaking-change release
       AWS_PUBLIC_BUCKET: "hievents-public"
       AWS_PRIVATE_BUCKET: "hievents-private"
       STRIPE_PUBLIC_KEY: ""

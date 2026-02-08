@@ -30,6 +30,7 @@ export const getConfig = (key: ConfigKeys, fallback?: string): string | undefine
         return serverEnv[key] as string | undefined || fallback;
     }
 
+    // TODO: Rebrand window.hievents runtime bridge in a future breaking-change release
     const clientEnv = typeof window !== "undefined" && window.hievents ? window.hievents : {};
     return clientEnv[key] || clientBuildEnv[key] || fallback;
 };

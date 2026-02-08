@@ -104,6 +104,7 @@ Sitemap: ${frontendUrl}/sitemap.xml
                 .map((value) => value.toString() || "")
                 .join(" ");
 
+            // TODO: Rebrand window.hievents runtime bridge in a future breaking-change release
             const envVariablesHtml = `<script>window.hievents = ${getViteEnvironmentVariables()};</script>`;
 
             const headSnippets = [];
