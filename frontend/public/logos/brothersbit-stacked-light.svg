@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="180" height="140" viewBox="0 0 180 140">
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="115" viewBox="0 0 180 115">
   <title>BrothersBit Logo Stacked - Light</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@800&amp;display=swap');
     .logo-text { font-family: 'Outfit', sans-serif; font-weight: 800; letter-spacing: -0.02em; }
   </style>
 
-  <!-- Icon centered above text (28x56) -->
-  <g transform="translate(76, 15)">
+  <!-- Icon centered above text (48x40) -->
+  <g transform="translate(66, 20)">
     <!-- Left half - medium blue -->
-    <rect x="0" y="0" width="14" height="56" fill="#3b57be"/>
+    <rect x="0" y="0" width="24" height="40" rx="3" fill="#3b57be"/>
     <!-- Right half - bright cyan -->
-    <rect x="14" y="0" width="14" height="56" fill="#247ebf"/>
+    <rect x="24" y="0" width="24" height="40" rx="3" fill="#247ebf"/>
   </g>
 
   <!-- Text centered below icon -->
-  <text x="90" y="105" class="logo-text" font-size="26" fill="#18181b" text-anchor="middle">BROTHERS<tspan fill="#3b57be">BIT</tspan></text>
+  <text x="90" y="95" class="logo-text" font-size="26" fill="#18181b" text-anchor="middle">BROTHERS<tspan fill="#3b57be">BIT</tspan></text>
 </svg>

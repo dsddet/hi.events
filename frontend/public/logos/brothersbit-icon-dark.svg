@@ -2,11 +2,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="130" height="130" viewBox="0 0 130 130">
   <title>BrothersBit Icon - Dark</title>
 
-  <!-- Split rectangle icon centered (28x56, maintaining 1:2 ratio) -->
-  <g transform="translate(51, 37)">
+  <!-- Split rectangle icon centered (48x40) -->
+  <g transform="translate(41, 45)">
     <!-- Left half - medium blue -->
-    <rect x="0" y="0" width="14" height="56" fill="#3b57be"/>
+    <rect x="0" y="0" width="24" height="40" rx="3" fill="#3b57be"/>
     <!-- Right half - bright cyan -->
-    <rect x="14" y="0" width="14" height="56" fill="#247ebf"/>
+    <rect x="24" y="0" width="24" height="40" rx="3" fill="#247ebf"/>
   </g>
 </svg>

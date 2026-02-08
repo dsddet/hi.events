@@ -6,12 +6,12 @@
     .logo-text { font-family: 'Outfit', sans-serif; font-weight: 800; letter-spacing: -0.02em; }
   </style>
 
-  <!-- Icon on left, scaled to ~60% height (48px tall icon, centered vertically) -->
-  <g transform="translate(20, 16)">
+  <!-- Icon on left (40x34, wider proportions) -->
+  <g transform="translate(18, 23)">
     <!-- Left half - medium blue -->
-    <rect x="0" y="0" width="12" height="48" fill="#3b57be"/>
+    <rect x="0" y="0" width="20" height="34" rx="3" fill="#3b57be"/>
     <!-- Right half - bright cyan -->
-    <rect x="12" y="0" width="12" height="48" fill="#247ebf"/>
+    <rect x="20" y="0" width="20" height="34" rx="3" fill="#247ebf"/>
   </g>
 
   <!-- Text on right, vertically centered -->
