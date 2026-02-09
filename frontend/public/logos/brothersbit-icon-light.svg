@@ -5,8 +5,8 @@
   <!-- Split rectangle icon centered (48x40) -->
   <g transform="translate(41, 45)">
     <!-- Left half - medium blue -->
-    <rect x="0" y="0" width="24" height="40" rx="3" fill="#3b57be"/>
+    <rect x="0" y="0" width="24" height="40" rx="3" fill="#7C5CFC"/>
     <!-- Right half - bright cyan -->
-    <rect x="24" y="0" width="24" height="40" rx="3" fill="#247ebf"/>
+    <rect x="24" y="0" width="24" height="40" rx="3" fill="#3B82F6"/>
   </g>
 </svg>

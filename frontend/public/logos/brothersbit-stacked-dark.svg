@@ -9,11 +9,11 @@
   <!-- Icon centered above text (48x40) -->
   <g transform="translate(66, 20)">
     <!-- Left half - medium blue -->
-    <rect x="0" y="0" width="24" height="40" rx="3" fill="#3b57be"/>
+    <rect x="0" y="0" width="24" height="40" rx="3" fill="#7C5CFC"/>
     <!-- Right half - bright cyan -->
-    <rect x="24" y="0" width="24" height="40" rx="3" fill="#247ebf"/>
+    <rect x="24" y="0" width="24" height="40" rx="3" fill="#3B82F6"/>
   </g>
 
   <!-- Text centered below icon -->
-  <text x="90" y="95" class="logo-text" font-size="26" fill="#ffffff" text-anchor="middle">BROTHERS<tspan fill="#247ebf">BIT</tspan></text>
+  <text x="90" y="95" class="logo-text" font-size="26" fill="#ffffff" text-anchor="middle">BROTHERS<tspan fill="#3B82F6">BIT</tspan></text>
 </svg>

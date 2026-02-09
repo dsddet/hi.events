@@ -6,6 +6,10 @@ import process from "process";
 export const clientBuildEnv: { [K in ConfigKeys]: string } = {
     'VITE_APP_PRIMARY_COLOR': import.meta.env.VITE_APP_PRIMARY_COLOR,
     'VITE_APP_SECONDARY_COLOR': import.meta.env.VITE_APP_SECONDARY_COLOR,
+    'VITE_APP_ACCENT_COLOR': import.meta.env.VITE_APP_ACCENT_COLOR,
+    'VITE_APP_HIGHLIGHT_COLOR': import.meta.env.VITE_APP_HIGHLIGHT_COLOR,
+    'VITE_APP_URGENCY_COLOR': import.meta.env.VITE_APP_URGENCY_COLOR,
+    'VITE_APP_NAV_TEXT_COLOR': import.meta.env.VITE_APP_NAV_TEXT_COLOR,
     'VITE_APP_NAME': import.meta.env.VITE_APP_NAME,
     'VITE_APP_FAVICON': import.meta.env.VITE_APP_FAVICON,
     'VITE_APP_LOGO_DARK': import.meta.env.VITE_APP_LOGO_DARK,

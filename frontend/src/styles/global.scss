@@ -9,12 +9,18 @@
   --hi-color-gray-2: #e2e2e2;
   --hi-color-gray-dark: #838383;
   --hi-color-money-green: #00b894;
-  --hi-color-blue: var(--mantine-color-primary-4);
-  --hi-link-color: var(--hi-primary);
-  --hi-pink: var(--mantine-color-primary-5);
+  --hi-color-blue: var(--mantine-color-secondary-5);
+  --hi-link-color: var(--mantine-color-secondary-6);
+  --hi-pink: var(--mantine-color-urgency-5);
   --hi-primary-alt: var(--mantine-color-primary-6);
-  --hi-gradient: linear-gradient(135deg, var(--hi-primary), var(--hi-primary-alt));
+  --hi-gradient: linear-gradient(135deg, var(--hi-primary), var(--mantine-color-secondary-6));
   --hi-scrollbar-thumb: #e1e1e1;
+
+  // Festival Vibes extended palette
+  --hi-accent: var(--mantine-color-accent-5);
+  --hi-highlight: var(--mantine-color-highlight-5);
+  --hi-urgency: var(--mantine-color-urgency-5);
+  --hi-nav-text: #0F172A;
 
   --hi-color-white: #ffffff;
   --hi-color-black: #000000;
