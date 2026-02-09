@@ -65,11 +65,11 @@ export const App: FC<
                 forceColorScheme="light"
                 theme={{
                     colors: {
-                        primary: generateColors(getConfig("VITE_APP_PRIMARY_COLOR", "#F97316") as string),
-                        secondary: generateColors(getConfig("VITE_APP_SECONDARY_COLOR", "#7C5CFC") as string),
-                        accent: generateColors(getConfig("VITE_APP_ACCENT_COLOR", "#3B82F6") as string),
-                        highlight: generateColors(getConfig("VITE_APP_HIGHLIGHT_COLOR", "#FACC15") as string),
-                        urgency: generateColors(getConfig("VITE_APP_URGENCY_COLOR", "#F43F5E") as string),
+                        primary: generateColors(getConfig("VITE_APP_PRIMARY_COLOR", "#FF6B6B") as string),
+                        secondary: generateColors(getConfig("VITE_APP_SECONDARY_COLOR", "#4ECDC4") as string),
+                        accent: generateColors(getConfig("VITE_APP_ACCENT_COLOR", "#FFA918") as string),
+                        highlight: generateColors(getConfig("VITE_APP_HIGHLIGHT_COLOR", "#FFE66D") as string),
+                        urgency: generateColors(getConfig("VITE_APP_URGENCY_COLOR", "#FF6B6B") as string),
                     },
                     primaryColor: "primary",
                     fontFamily: "Outfit, sans-serif",

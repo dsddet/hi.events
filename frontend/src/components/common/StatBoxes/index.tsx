@@ -44,37 +44,37 @@ export const StatBoxes = () => {
             number: formatNumber(eventStats?.total_attendees_registered as number),
             description: t`Attendees`,
             icon: <IconUsers size={18}/>,
-            backgroundColor: '#F43F5E'  // Rose
+            backgroundColor: '#FF6B6B'  // Coral
         },
         {
             number: formatNumber(eventStats?.total_products_sold as number),
             description: t`Products sold`,
             icon: <IconShoppingCart size={18}/>,
-            backgroundColor: '#3B82F6'  // Blue
+            backgroundColor: '#4ECDC4'  // Teal
         },
         {
             number: formatCurrency(eventStats?.total_refunded as number || 0, event?.currency),
             description: t`Refunded`,
             icon: <IconCreditCardRefund size={18}/>,
-            backgroundColor: '#7C5CFC'  // Violet
+            backgroundColor: '#2C3E50'  // Navy
         },
         {
             number: formatCurrency(eventStats?.total_gross_sales || 0, event?.currency),
             description: t`Gross sales`,
             icon: <IconCash size={18}/>,
-            backgroundColor: '#F97316'  // Tangerine
+            backgroundColor: '#FFA918'  // Mustard
         },
         {
             number: formatNumber(eventStats?.total_views as number),
             description: t`Page views`,
             icon: <IconEye size={18}/>,
-            backgroundColor: '#FACC15'  // Gold
+            backgroundColor: '#FFE66D'  // Lemon
         },
         {
             number: formatNumber(eventStats?.total_orders as number),
             description: t`Completed orders`,
             icon: <IconReceipt size={18}/>,
-            backgroundColor: '#0F172A'  // Ink
+            backgroundColor: '#4ECDC4'  // Teal
         }
     ];
 
