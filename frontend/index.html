@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-mantine-color-scheme="light">
   <head>
     <meta charset="UTF-8" />
       <!-- Favicon -->
@@ -17,15 +17,23 @@
       <link rel="manifest" href="/site.webmanifest">
 
       <!-- Theme colors -->
-      <meta name="theme-color" content="#cd58dd">
-      <meta name="msapplication-TileColor" content="#18181b">
+      <meta name="theme-color" content="#FFA918">
+      <meta name="msapplication-TileColor" content="#0F172A">
 
       <link
       rel="stylesheet"
-      href="https://fonts.bunny.net/css?family=outfit:400,500,600,700,800|plus-jakarta-sans:400,500,600,700&display=swap"
+      href="https://fonts.bunny.net/css?family=outfit:400,500,600,700,800,900|plus-jakarta-sans:400,500,600,700&display=swap"
     />
+    <meta name="color-scheme" content="light only">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--render-helmet--><title>Hi.Events</title><!--/render-helmet-->
+    <script>
+      // Force light mode before any rendering — prevents dark flash in Chrome
+      (function() {
+        document.documentElement.setAttribute('data-mantine-color-scheme', 'light');
+        document.documentElement.style.colorScheme = 'light';
+      })();
+    </script>
+    <!--render-helmet--><title>Marketfier</title><!--/render-helmet-->
     <!--environment-variables-->
     <!--head-snippets-->
   </head>

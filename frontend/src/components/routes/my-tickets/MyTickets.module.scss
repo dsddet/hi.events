@@ -69,17 +69,9 @@
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   border: 1px solid var(--mantine-color-gray-2);
 
-  @media (prefers-color-scheme: dark) {
-    border-color: var(--mantine-color-dark-4);
-  }
-
   &:hover {
     transform: translateY(-2px);
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
-
-    @media (prefers-color-scheme: dark) {
-      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
-    }
   }
 
   &::before {
@@ -128,10 +120,6 @@
 .orderDetails {
   padding-top: 16px;
   border-top: 1px solid var(--mantine-color-gray-2);
-
-  @media (prefers-color-scheme: dark) {
-    border-color: var(--mantine-color-dark-4);
-  }
 }
 
 .detailItem {
@@ -192,11 +180,6 @@
   background: var(--mantine-color-primary-0);
   border-radius: var(--mantine-radius-md);
   border: 1px solid var(--mantine-color-primary-1);
-
-  @media (prefers-color-scheme: dark) {
-    background: var(--mantine-color-primary-1);
-    border-color: var(--mantine-color-primary-2);
-  }
 
   p {
     margin: 0 0 8px;

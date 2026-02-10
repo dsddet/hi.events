@@ -15,6 +15,10 @@ declare global {
 const dehydratedState = window.__REHYDRATED_STATE__;
 
 async function initClientApp() {
+    // Force light mode before hydration — prevent Mantine from reading OS dark preference
+    document.documentElement.setAttribute('data-mantine-color-scheme', 'light');
+    document.documentElement.style.colorScheme = 'light';
+
     const rawLocale = getClientLocale();
     const locale = getSupportedLocale(rawLocale);
     await dynamicActivateLocale(locale);

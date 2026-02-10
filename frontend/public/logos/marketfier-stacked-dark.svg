@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 140" width="180" height="140">
+  <title>Marketfier</title>
+  <style>
+    @import url('https://fonts.bunny.net/css?family=outfit:900');
+    .brand { font-family: 'Outfit', sans-serif; font-weight: 900; font-size: 28px; letter-spacing: -0.02em; }
+  </style>
+  <g transform="translate(90, 50)">
+    <rect x="-50" y="-38" width="42" height="76" rx="5" fill="#FFFFFF"/>
+    <rect x="8" y="-38" width="42" height="76" rx="5" fill="#FFFFFF" opacity="0.7"/>
+  </g>
+  <text x="90" y="125" text-anchor="middle" class="brand">
+    <tspan fill="#FFA918">Market</tspan><tspan fill="#FFFFFF">fier</tspan>
+  </text>
+</svg>

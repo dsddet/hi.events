@@ -1,6 +1,6 @@
 {
-  "name": "Hi.Events",
-  "short_name": "Hi.Events",
+  "name": "Marketfier",
+  "short_name": "Marketfier",
   "icons": [
     {
       "src": "/manifest-icons/favicon-48x48.png",
@@ -18,7 +18,7 @@
       "type": "image/png"
     }
   ],
-  "theme_color": "#cd58dd",
-  "background_color": "#18181b",
+  "theme_color": "#FFA918",
+  "background_color": "#0F172A",
   "display": "standalone"
 }

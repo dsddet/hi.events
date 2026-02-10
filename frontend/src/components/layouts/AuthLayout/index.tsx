@@ -119,8 +119,8 @@ const AuthLayout = () => {
                     <main className={classes.container}>
                         <div className={classes.logo}>
                             <img
-                                src={getConfig("VITE_APP_LOGO_DARK", "/logos/hi-events-stacked-light.svg")}
-                                alt={t`${getConfig("VITE_APP_NAME", "Hi.Events")} logo`}
+                                src={getConfig("VITE_APP_LOGO_DARK", "/logos/marketfier-stacked-light.svg")}
+                                alt={t`${getConfig("VITE_APP_NAME", "Marketfier")} logo`}
                             />
                         </div>
                         <div className={classes.wrapper}>

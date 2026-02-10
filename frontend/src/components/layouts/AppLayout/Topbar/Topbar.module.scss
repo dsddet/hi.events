@@ -2,7 +2,7 @@
 
 .topBar {
   grid-area: topbar;
-  background: linear-gradient(90deg, var(--mantine-color-primary-9), var(--mantine-color-secondary-9));
+  background: linear-gradient(90deg, #E89710, #FFA918);
   display: flex;
   flex-direction: column;
   transition: box-shadow 0.3s ease;
@@ -193,7 +193,7 @@
 
   @include mixins.respond-below(md) {
     .topBarMain {
-      background: linear-gradient(90deg, var(--mantine-color-primary-9), var(--mantine-color-secondary-9));
+      background: linear-gradient(90deg, #E89710, #FFA918);
     }
   }
 

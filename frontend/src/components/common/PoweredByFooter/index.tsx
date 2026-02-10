@@ -34,7 +34,7 @@ export const PoweredByFooter = (
             medium = window.location.pathname.includes("/widget") ? "widget" : "app";
         }
 
-        const url = new URL("https://hi.events");
+        const url = new URL("https://marketfier.com");
         url.searchParams.set("utm_source", "app-powered-by-footer");
         url.searchParams.set("utm_medium", isHiEvents() ? medium : 'self-hosted-' + medium);
         url.searchParams.set("utm_campaign", "powered-by");
@@ -50,9 +50,9 @@ export const PoweredByFooter = (
                 href={`${link}`}
                 target="_blank"
                 className={classes.ctaLink}
-                title={"Effortlessly manage events and sell tickets online with Hi.Events"}
+                title={"Effortlessly manage events and sell tickets online with Marketfier"}
             >
-                {t`Try Hi.Events Free`}
+                {t`Try Marketfier Free`}
             </a>
         </>
     ) : (
@@ -61,9 +61,9 @@ export const PoweredByFooter = (
             <a
                 href={link}
                 target="_blank"
-                title={"Effortlessly manage events and sell tickets online with Hi.Events"}
+                title={"Effortlessly manage events and sell tickets online with Marketfier"}
             >
-                Hi.Events
+                Marketfier
             </a>{" "}
             🚀
         </>
