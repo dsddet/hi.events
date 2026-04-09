@@ -21,7 +21,11 @@ export const clientBuildEnv: { [K in ConfigKeys]: string } = {
     'VITE_FRONTEND_URL': import.meta.env.VITE_FRONTEND_URL,
     'VITE_DEFAULT_IMAGE_URL': import.meta.env.VITE_DEFAULT_IMAGE_URL,
     'VITE_API_URL_SERVER': import.meta.env.VITE_API_URL_SERVER,
-    'VITE_API_URL_CLIENT': import.meta.env.VITE_API_URL_CLIENT
+    'VITE_API_URL_CLIENT': import.meta.env.VITE_API_URL_CLIENT,
+    'VITE_APP_SIDEBAR_BG': import.meta.env.VITE_APP_SIDEBAR_BG,
+    'VITE_APP_SIDEBAR_TEXT': import.meta.env.VITE_APP_SIDEBAR_TEXT,
+    'VITE_APP_TOPBAR_TEXT': import.meta.env.VITE_APP_TOPBAR_TEXT,
+    'VITE_APP_BODY_TEXT_COLOR': import.meta.env.VITE_APP_BODY_TEXT_COLOR,
 }
 
 export const getConfig = (key: ConfigKeys, fallback?: string): string | undefined => {

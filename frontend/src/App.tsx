@@ -41,6 +41,18 @@ export const App: FC<
         setIsLoadedOnBrowser(!isSsr());
     }, []);
 
+    useEffect(() => {
+        const root = document.documentElement;
+        const sidebarBg = getConfig('VITE_APP_SIDEBAR_BG');
+        const sidebarText = getConfig('VITE_APP_SIDEBAR_TEXT');
+        const topbarText = getConfig('VITE_APP_TOPBAR_TEXT');
+        if (sidebarBg) root.style.setProperty('--hi-sidebar-bg', sidebarBg);
+        if (sidebarText) root.style.setProperty('--hi-sidebar-text', sidebarText);
+        if (topbarText) root.style.setProperty('--hi-topbar-text', topbarText);
+        const bodyText = getConfig('VITE_APP_BODY_TEXT_COLOR');
+        if (bodyText) root.style.setProperty('--hi-text', bodyText);
+    }, []);
+
     return (
         <React.StrictMode>
             <div

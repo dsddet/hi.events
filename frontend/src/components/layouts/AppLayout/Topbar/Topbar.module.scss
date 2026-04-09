@@ -2,7 +2,8 @@
 
 .topBar {
   grid-area: topbar;
-  background: linear-gradient(90deg, #E89710, #FFA918);
+  background: var(--hi-sidebar-bg);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
   display: flex;
   flex-direction: column;
   transition: box-shadow 0.3s ease;
@@ -154,14 +155,15 @@
   }
 
   .burger {
-    --burger-color: var(--hi-color-white);
+    --burger-color: var(--hi-topbar-text);
+
     @include mixins.respond-above(md) {
       display: none;
     }
   }
 
   .logo {
-    color: var(--hi-color-white);
+    color: var(--hi-topbar-text);
     font-weight: bold;
     font-size: 1.2em;
     display: flex;
@@ -188,12 +190,12 @@
   .menu {
     display: flex;
     align-items: center;
-    color: var(--hi-color-white);
+    color: var(--hi-topbar-text);
   }
 
   @include mixins.respond-below(md) {
     .topBarMain {
-      background: linear-gradient(90deg, #E89710, #FFA918);
+      background: var(--hi-sidebar-bg);
     }
   }
 
@@ -203,7 +205,7 @@
     align-items: center;
     font-weight: 500;
     transition: transform 0.2s ease;
-    color: #fff;
+    color: var(--hi-topbar-text);
 
     &:hover {
       transform: translateY(-1px);

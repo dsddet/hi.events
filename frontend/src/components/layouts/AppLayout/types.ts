@@ -1,10 +1,10 @@
 import React, { ReactNode } from 'react';
-import { TablerIconsProps } from '@tabler/icons-react';
+import { IconProps } from '@tabler/icons-react';
 
 export interface NavItem {
     link?: string;
     label: string;
-    icon?: React.ComponentType<TablerIconsProps>;
+    icon?: React.ComponentType<IconProps>;
     comingSoon?: boolean;
     isActive?: (isActive: boolean) => boolean;
     badge?: string | number | null | undefined;

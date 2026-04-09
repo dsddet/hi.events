@@ -30,7 +30,7 @@ export const Topbar: React.FC<TopbarProps> = ({
             <div className={classes.topBarMain}>
                 <div className={classes.burger}>
                     <Burger
-                        color={'#fff'}
+                        color={'var(--hi-topbar-text)'}
                         opened={sidebarOpen}
                         onClick={() => setSidebarOpen(!sidebarOpen)}
                         size={'sm'}

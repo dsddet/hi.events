@@ -1,20 +1,25 @@
 @use "mixins";
 
 :root {
-  --hi-text: var(--mantine-color-primary-9);
-  --hi-primary: var(--mantine-color-primary-9);
-  --hi-secondary:  var(--mantine-color-secondary-1);
-  --hi-secondary-text: var(--mantine-color-primary-8);
-  --hi-color-gray: #f7f6f8;
-  --hi-color-gray-2: #e2e2e2;
-  --hi-color-gray-dark: #838383;
-  --hi-color-money-green: #00b894;
-  --hi-color-blue: var(--mantine-color-primary-4);
-  --hi-link-color: var(--hi-primary);
-  --hi-pink: var(--mantine-color-primary-5);
-  --hi-primary-alt: var(--mantine-color-primary-6);
-  --hi-gradient: linear-gradient(135deg, var(--hi-primary), var(--hi-primary-alt));
-  --hi-scrollbar-thumb: #e1e1e1;
+--hi-text: #66625b;
+--hi-primary: var(--mantine-color-primary-9);
+--hi-secondary:  var(--mantine-color-secondary-1);
+--hi-secondary-text: var(--mantine-color-primary-8);
+--hi-color-gray: #f7f6f8;
+--hi-color-gray-2: #e2e2e2;
+--hi-color-gray-dark: #838383;
+--hi-color-money-green: #00b894;
+--hi-color-blue: var(--mantine-color-primary-4);
+--hi-link-color: var(--hi-primary);
+--hi-pink: var(--mantine-color-primary-5);
+--hi-primary-alt: var(--mantine-color-primary-6);
+--hi-gradient: linear-gradient(135deg, var(--hi-primary), var(--hi-primary-alt));
+--hi-scrollbar-thumb: #e1e1e1;
+
+  /* Sidebar/topbar shell — override via VITE_APP_SIDEBAR_BG / VITE_APP_SIDEBAR_TEXT / VITE_APP_TOPBAR_TEXT */
+  --hi-sidebar-bg: #ffffff;
+  --hi-sidebar-text: #490000;
+  --hi-topbar-text: #f22448;
 
   --hi-color-white: #ffffff;
   --hi-color-black: #000000;
@@ -49,8 +54,9 @@ body {
   letter-spacing: 0.2px;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0.3px;
+  color: var(--hi-text);
 }
 
 fieldset {

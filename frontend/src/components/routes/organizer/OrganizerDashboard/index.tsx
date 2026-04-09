@@ -157,7 +157,7 @@ export const OrganizerDashboard = () => {
         <PageBody>
             <div className={classes.headerSection}>
                 <PageTitle className={classes.pageTitle}>
-                    {organizer ? `${organizer.name} - ${t`Dashboard`}` : t`Organizer Dashboard`}
+                    {t`Dashboard`}
                 </PageTitle>
                 {currencies?.length > 1 && (
                     <Menu

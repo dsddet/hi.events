@@ -222,7 +222,7 @@
   background: linear-gradient(135deg, var(--mantine-color-primary-0) 0%, var(--mantine-color-secondary-0) 100%);
   border: 1px solid var(--mantine-color-primary-1);
   box-shadow: 0 4px 16px var(--mantine-color-primary-1) !important;
-  color: var(--mantine-color-gray-9);
+  color: var(--hi-text);
   padding: 28px 32px;
   border-radius: 16px;
   position: relative;
@@ -291,7 +291,7 @@
     margin: 0 0 8px 0;
     font-size: 1.25rem;
     font-weight: 600;
-    color: var(--mantine-color-gray-9);
+    color: var(--hi-text);
     letter-spacing: -0.02em;
   }
 
