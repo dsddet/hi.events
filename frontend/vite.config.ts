@@ -9,7 +9,7 @@ export default defineConfig({
     },
     server: {
         hmr: {
-            port: 24678,
+            port: 44678,
             protocol: "ws",
         },
     },

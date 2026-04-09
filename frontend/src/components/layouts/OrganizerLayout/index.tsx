@@ -237,7 +237,7 @@ const OrganizerLayout = () => {
                         component={NavLink}
                         to={`/events/${organizerId}/${organizer?.slug || ''}`}
                         target={'_blank'}
-                        variant={'transparent'}
+                        variant={'light'}
                         className={classes.viewHomepageButton}
                         leftSection={<IconExternalLink size={17}/>}
                         title={t`View Organizer Homepage`}

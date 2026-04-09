@@ -11,6 +11,7 @@ export const TopBarButton = forwardRef<HTMLButtonElement, TopBarButtonProps>(
         return (
             <Button
                 ref={ref}
+                variant="light"
                 className={`${classes.topBarButton} ${className || ''}`}
                 {...props}
             >

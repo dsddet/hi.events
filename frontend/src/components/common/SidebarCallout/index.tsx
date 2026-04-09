@@ -72,7 +72,7 @@ export const SidebarCallout: React.FC<SidebarCalloutProps> = ({
             ) : (
                 <Button
                     fullWidth
-                    variant="white"
+                    variant="light"
                     size="sm"
                     leftSection={buttonIcon}
                     onClick={onClick}

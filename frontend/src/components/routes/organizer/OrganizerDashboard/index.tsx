@@ -218,7 +218,7 @@ export const OrganizerDashboard = () => {
                     ))}
                 </div>
             )}
-            {!stats && !organizerStatsQuery.isLoading && (
+            {!organizerStatsQuery.isLoading && !organizerStatsQuery.data && (
                 <Card>
                     <Trans>Organizer statistics are not available for the selected currency or an error
                         occurred.</Trans>

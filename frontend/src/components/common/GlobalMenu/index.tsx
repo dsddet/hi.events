@@ -97,7 +97,7 @@ export const GlobalMenu = () => {
             <Menu shadow="md" width={200}>
                 <Menu.Target>
                     <UnstyledButton>
-                        <Avatar color={"primary.1"} radius="xl">
+                        <Avatar color={"dark"} radius="xl">
                             {me ? getInitials(me.first_name + " " + me.last_name) : ".."}
                         </Avatar>
                     </UnstyledButton>
