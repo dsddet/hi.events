@@ -76,8 +76,8 @@ export const App: FC<
                 forceColorScheme="light"
                 theme={{
                     colors: {
-                        primary: generateColors(getConfig("VITE_APP_PRIMARY_COLOR", "#40296C") as string),
-                        secondary: generateColors(getConfig("VITE_APP_SECONDARY_COLOR", "#3d0b44") as string),
+                        primary: generateColors(getConfig("VITE_APP_PRIMARY_COLOR", "#FFA918") as string),
+                        secondary: generateColors(getConfig("VITE_APP_SECONDARY_COLOR", "#f22448") as string),
                     },
                     primaryColor: "primary",
                     fontFamily: "Outfit, sans-serif",
