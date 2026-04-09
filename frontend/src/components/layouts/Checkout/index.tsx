@@ -21,7 +21,7 @@ import {isDateInFuture} from "../../../utilites/dates.ts";
 import {detectMode} from "../../../utilites/themeUtils.ts";
 import {CheckoutThemeProvider} from "./CheckoutThemeProvider.tsx";
 
-const DEFAULT_ACCENT = '#8b5cf6';
+const DEFAULT_ACCENT = '#ffa918';
 
 const Checkout = () => {
     const {eventId, orderShortId} = useParams();
