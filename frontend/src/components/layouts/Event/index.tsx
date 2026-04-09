@@ -133,10 +133,6 @@ const EventLayout = () => {
 
     const breadcrumbItems: BreadcrumbItem[] = isEventFetched ? [
         {
-            link: `/manage/organizer/${event?.organizer?.id}`,
-            content: <Truncate length={breadcrumbItemsWidth} text={event?.organizer?.name} showTooltip={false}/>
-        },
-        {
             link: `/manage/event/${event?.id}`,
             content: <Truncate length={breadcrumbItemsWidth} text={event?.title} showTooltip={false}/>
         }

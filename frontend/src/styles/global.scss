@@ -18,7 +18,7 @@
 
   /* Sidebar/topbar shell — override via VITE_APP_SIDEBAR_BG / VITE_APP_SIDEBAR_TEXT / VITE_APP_TOPBAR_TEXT */
   --hi-sidebar-bg: #ffffff;
-  --hi-sidebar-text: #490000;
+  --hi-sidebar-text: #5f5853;
   --hi-topbar-text: #f22448;
 
   --hi-color-white: #ffffff;
@@ -54,12 +54,28 @@ body {
   letter-spacing: 0.2px;
 }
 
-h1, h2 {
+h1 {
+  font-size: 25px;
   letter-spacing: 0.3px;
   color: #eb6d0a;
 }
 
-h3, h4, h5, h6 {
+h2 {
+  letter-spacing: 0.3px;
+  color: #eb6d0a;
+}
+
+h3 {
+  font-size: 18px;
+  letter-spacing: 0.3px;
+}
+
+h4 {
+  font-size: 16px;
+  letter-spacing: 0.3px;
+}
+
+h5, h6 {
   letter-spacing: 0.3px;
 }
 

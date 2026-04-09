@@ -62,15 +62,15 @@
   }
 
   img {
-    height: 110px;
+    height: 150px;
     width: auto;
 
     @include mixins.respond-below(md) {
-      height: 100px;
+      height: 130px;
     }
 
     @include mixins.respond-below(sm) {
-      height: 90px;
+      height: 110px;
     }
   }
 }

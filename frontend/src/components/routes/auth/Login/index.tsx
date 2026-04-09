@@ -77,7 +77,6 @@ const Login = () => {
     return (
         <>
             <header className={classes.header}>
-                <h2>{t`Welcome back`}</h2>
                 <p>
                     <Trans>
                         Don't have an account?{' '}

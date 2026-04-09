@@ -205,13 +205,6 @@ export function EventCard({event}: EventCardProps) {
                                 )}
                             </div>
                             <div className={classes.footer}>
-                                <NavLink
-                                    to={`/manage/organizer/${event?.organizer?.id}`}
-                                    className={classes.organizer}
-                                    onClick={(e) => e.stopPropagation()}
-                                >
-                                    {event?.organizer?.name}
-                                </NavLink>
                                 {ticketAvailability && (
                                     <span className={`${classes.ticketStatus} ${classes[`ticket-${ticketAvailability.status}`]}`}>
                                         {ticketAvailability.text}

@@ -4,9 +4,11 @@
   font-weight: 500;
   border-radius: 18px;
   transition: all 0.2s ease;
+  color: #e8590c !important;
 
   &:hover {
     transform: translateY(-1px);
+    color: #e8590c !important;
   }
 
   .viewHomepageButtonTextDesktop {

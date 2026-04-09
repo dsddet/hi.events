@@ -262,9 +262,6 @@ const EventHomepage = ({...loaderData}: EventHomepageProps) => {
                                                         {organizer.name.charAt(0).toUpperCase()}
                                                     </span>
                                                 )}
-                                                <span className={classes.organizerPillName}>
-                                                    {organizer.name}
-                                                </span>
                                             </a>
                                         ) : (
                                             <div className={classes.organizerPill}>
@@ -279,9 +276,6 @@ const EventHomepage = ({...loaderData}: EventHomepageProps) => {
                                                         {organizer?.name?.charAt(0).toUpperCase() || '?'}
                                                     </span>
                                                 )}
-                                                <span className={classes.organizerPillName}>
-                                                    {organizer?.name}
-                                                </span>
                                             </div>
                                         )}
 
