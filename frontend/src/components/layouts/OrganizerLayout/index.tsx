@@ -141,12 +141,13 @@ const OrganizerLayout = () => {
     const breadcrumbItems: BreadcrumbItem[] = [
         {
             content: (
-                <span
-                    className={classes.createEventBreadcrumb}
+                <Button
                     onClick={() => setShowCreateEventModal(true)}
+                    variant="transparent"
+                    leftSection={<IconCalendarPlus size={16}/>}
                 >
-                    <IconCalendarPlus size={16}/> {t`Create Event`}
-                </span>
+                    {t`Create Event`}
+                </Button>
             ),
         }
     ];

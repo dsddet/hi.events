@@ -6,7 +6,7 @@
   }
 
   min-height: 100vh;
-  background: var(--hi-gradient);
+  background: #f9fafc;
   padding: 3rem 1rem;
   display: flex;
   flex-direction: column;
@@ -62,7 +62,7 @@
 .welcomeTitle {
   font-size: 1.75rem;
   font-weight: 700;
-  color: var(--hi-color-white);
+  color: var(--hi-text);
   margin: 0;
   line-height: 1.2;
 
@@ -121,7 +121,7 @@
 
 .progressFill {
   height: 100%;
-  background: var(--hi-gradient);
+  background: var(--mantine-color-secondary-5);
   border-radius: 3px;
   transition: width 0.3s ease;
 }
@@ -417,17 +417,18 @@
 
 // Clean button
 .primaryButton {
-  background: var(--hi-primary) !important;
+  background: var(--mantine-color-secondary-5) !important;
   border: none !important;
   border-radius: 8px !important;
   font-weight: 600 !important;
   font-size: 1rem !important;
   height: 48px !important;
-  transition: all 0.2s ease !important;
-  margin-top: 1em;
+  width: 230px !important;
+  display: block !important;
+  margin: 1em auto 0 !important;
 
   &:hover:not(:disabled) {
-    background: color-mix(in srgb, var(--hi-primary) 85%, var(--hi-primary-alt) 15%) !important;
+    background: var(--mantine-color-secondary-4) !important;
     transform: translateY(-1px) !important;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
   }
@@ -447,16 +448,16 @@
   margin-top: 1.5rem;
 
   :global(.mantine-Button-root) {
-    color: rgba(255, 255, 255, 0.9) !important;
+    color: var(--hi-color-gray-dark) !important;
     font-size: 0.9rem !important;
     background: transparent !important;
-    border: 1px solid rgba(255, 255, 255, 0.3) !important;
+    border: 1px solid var(--hi-color-gray-2) !important;
     border-radius: 6px !important;
     padding: 8px 16px !important;
     transition: opacity 0.15s ease !important;
 
     &:hover {
-      color: white !important;
+      color: var(--hi-text) !important;
       opacity: 0.8 !important;
     }
   }

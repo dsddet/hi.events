@@ -399,7 +399,6 @@ export const CreateEvent = ({progressInfo}: {
                         </Stack>
                         <Button
                             type={'submit'}
-                            fullWidth
                             size="lg"
                             loading={eventMutation.isPending}
                             leftSection={eventMutation.isPending ? null : <IconSparkles size={20}/>}
@@ -466,9 +465,6 @@ const Welcome = () => {
         <div className={classes.welcomeContainer}>
             <Container size="sm" className={classes.welcomeContent}>
                 <div className={classes.welcomeHeader}>
-                    <div className={classes.logo}>
-                        <img src={getConfig("VITE_APP_LOGO_LIGHT", "/logos/marketfier-text-dark.svg")} alt={`${getConfig("VITE_APP_NAME", "Marketfier")} logo`} className={classes.logo}/>
-                    </div>
                     <h1 className={classes.welcomeTitle}>
                         <Trans>
                             Welcome to {getConfig("VITE_APP_NAME", "Marketfier")}, {userData?.first_name} 👋
