@@ -690,7 +690,7 @@ export const CollectInformation = () => {
                             <Trans>
                                 By continuing, you agree to the{' '}
                                 <a
-                                    href={getConfig('VITE_TOS_URL', 'https://marketfier.com/terms-of-service') as string}
+                                    href={getConfig('VITE_TOS_URL', 'https://www.marketfier.com/terms') as string}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >

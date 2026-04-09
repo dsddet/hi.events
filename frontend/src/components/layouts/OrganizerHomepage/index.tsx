@@ -322,14 +322,14 @@ export const OrganizerHomepage = ({
                         <div className={classes.footerSection}>
                             <div className={classes.footerLinks}>
                                 <Anchor
-                                    href={getConfig('VITE_PRIVACY_URL', 'https://marketfier.com/privacy-policy?utm_source=app-organizer-footer')}
+                                    href={getConfig('VITE_PRIVACY_URL', 'https://www.marketfier.com/privacy?utm_source=app-organizer-footer')}
                                     className={classes.footerLink}
                                 >
                                     {t`Privacy Policy`}
                                 </Anchor>
                                 <span className={classes.footerSeparator}>•</span>
                                 <Anchor
-                                    href={getConfig('VITE_TOS_URL', 'https://marketfier.com/terms-of-service?utm_source=app-organizer-footer')}
+                                    href={getConfig('VITE_TOS_URL', 'https://www.marketfier.com/terms?utm_source=app-organizer-footer')}
                                     className={classes.footerLink}
                                 >
                                     {t`Terms of Service`}

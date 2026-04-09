@@ -140,10 +140,10 @@ export const Register = () => {
                 <footer>
                     <Trans>
                         By registering you agree to our <NavLink target={'_blank'}
-                                                                 to={getConfig("VITE_TOS_URL", "https://marketfier.com/terms-of-service?utm_source=app-register-footer") as string}>Terms
+                                                                 to={getConfig("VITE_TOS_URL", "https://www.marketfier.com/terms?utm_source=app-register-footer") as string}>Terms
                         of Service</NavLink> and <NavLink
                         target={'_blank'}
-                        to={getConfig("VITE_PRIVACY_URL", 'https://marketfier.com/privacy-policy?utm_source=app-register-footer') as string}>Privacy Policy</NavLink>.
+                        to={getConfig("VITE_PRIVACY_URL", 'https://www.marketfier.com/privacy?utm_source=app-register-footer') as string}>Privacy Policy</NavLink>.
                     </Trans>
                 </footer>
             </div>

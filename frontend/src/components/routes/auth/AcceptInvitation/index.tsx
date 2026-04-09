@@ -143,7 +143,7 @@ const AcceptInvitation = () => {
                                     I agree to the{' '}
                                     <Anchor
                                         target={'_blank'}
-                                        href={getConfig("VITE_TOS_URL", 'https://marketfier.com/terms-of-service')}
+                                        href={getConfig("VITE_TOS_URL", 'https://www.marketfier.com/terms')}
                                     >
                                         terms and conditions
                                     </Anchor>
