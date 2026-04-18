@@ -57,13 +57,16 @@ export function Dashboard() {
     const events = eventData?.data;
     const organizers = organizersQuery?.data?.data;
 
+    // Wait for organizers query before rendering anything (prevents flash of events UI on login)
+    if (!organizersQuery.isFetched) return null;
+
     // If there are no organizers, redirect to the welcome page
-    if (organizersQuery.isFetched && organizers?.length === 0) {
+    if (organizers?.length === 0) {
         return <Navigate to={'/welcome'}/>
     }
 
     // If there's only one organizer, redirect to their dashboard
-    if (organizersQuery.isFetched && organizers?.length === 1) {
+    if (organizers?.length === 1) {
         return <Navigate to={'/manage/organizer/' + organizers[0].id}/>;
     }
 
